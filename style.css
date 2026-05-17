@@ -10,3 +10,20 @@ section{padding:88px 6vw}.diensten{background:#081a30}.cards{display:grid;grid-t
 .contact{text-align:center;background:radial-gradient(circle at top,#12365c,#061426 62%)}.contact .eyebrow,.contact p{margin-left:auto;margin-right:auto}.contact-box{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:34px}.contact-item{text-decoration:none;background:#0d223d;border:1px solid rgba(255,138,0,.25);border-radius:22px;padding:22px;display:flex;flex-direction:column;gap:8px}.contact-item strong{color:#ff8a00}.contact-item span{color:#dbe7f5;word-break:break-word}
 footer{text-align:center;padding:28px;background:#030b14;color:#96a8bc}
 @media(max-width:800px){nav{align-items:flex-start;flex-direction:column}.navlinks{gap:12px}.proefstuk,.about{grid-template-columns:1fr}.proef-photo img{height:340px}.gallery img{height:300px}section{padding:64px 20px}.hero-text{padding:9vh 20px}.logo{font-size:18px}}
+.whatsapp-float{
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  z-index:9999;
+  background:#25D366;
+  color:white;
+  padding:16px 22px;
+  border-radius:999px;
+  font-weight:900;
+  text-decoration:none;
+  box-shadow:0 12px 30px rgba(0,0,0,.35);
+}
+
+.whatsapp-float:hover{
+  transform:scale(1.05);
+}
